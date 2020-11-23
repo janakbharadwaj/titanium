@@ -1,0 +1,162 @@
+#topBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    height: 60px;
+    /* border: 1px solid black; */
+    margin: 20px 0px 10px 0px;
+}
+#topBar > img{
+    margin-left: 200px;
+    width: 80px;
+    position: absolute;
+    left: 0px;
+    top: -18px;
+    margin-top: 20px;
+}
+#topBar > button{
+    width: 100px;
+    border: 0px;
+    background-color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.firstBtn{
+    margin-left: 300px;
+}
+.demoBtn{
+    margin-left: 290px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.loginBtn{
+    margin-right: 180px;
+}
+
+#firstContainer{
+    position: absolute;
+    top: 100px;
+    left: 210px;
+}
+.awardedText{
+    margin-top: 50px;
+    font-weight: lighter;
+    color: rgb(207, 140, 16);
+    width: 350px;
+    background-color: rgba(238, 199, 125, 0.274);
+    padding: 5px;
+    border-radius: 15px;
+}
+.headingText{
+    font-family: sans-serif;
+}
+#firstParent > h2{
+    font-size: 30px;
+}
+#firstParent > p{
+    line-height: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 0px;
+}
+
+.firstContainerLeftDown{
+    position: absolute;
+    top: 350px;
+    left: 200px;
+}
+.firstContainerLeftDown > input{
+    float: left;
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid teal;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 0px 0px 0px 15px;
+}
+.firstContainerLeftDown > h3{
+    float: right;
+    margin: 0px 0px 0px 25px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: rgb(16, 214, 214);
+    height: 35px;
+    width: 160px;
+    color: white;
+    padding-top: 8px;
+    padding-left: 8px;
+    margin-top: 20px;
+}
+.firstContainerLeftDown > h5{
+    margin-top: 80px;
+    text-align: center;
+}
+.googleBox{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    border: 1px solid rgba(88, 83, 83, 0.753);
+    width: 470px;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.googleBox > img{
+    width: 23px;
+    float: left;
+    margin-left: 150px;
+}
+.googleBox > p{
+    float: left;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.firstContainerLeftDown > p{
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    color: teal;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.firstLeftImg{
+    width: 60px;
+    position: absolute;
+    left: 780px;
+    top: 110px;
+    margin-top: 10px;
+}
+.firstRightImg{
+    width: 50px;
+    position: absolute;
+    left: 1350px;
+    top: 480px;
+}
+
+#logosDiv{
+    position: absolute;
+    top: 700px;
+    left: 100px;
+}
+.logoParentDiv{
+    /* border: 1px solid black; */
+    width: 1100px;
+    height: 150px;
+    margin: 10px 20px 0px 100px;
+}
+.logoParentDiv > img {
+    width: 110px;
+    margin-left: 20px;
+}
+#appleLogo{
+    width: 65px;
+    margin-left: 60px;
+}
+.logoHead{
+    color: rgb(212, 139, 3);
+    text-align: center;
+}
