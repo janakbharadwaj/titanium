@@ -167,11 +167,11 @@
 /*Rudra Pratap Singh */
 .cl1{
     position: absolute;
-    bottom: -90%;
-    left:1%;
+    top: 1750px;
+    left:0px;
     width: 97%;
     height:35%;
-   
+    font-family: sans-serif;
 }
 .circle{
     width:60px;
@@ -194,8 +194,8 @@
     height:38%;
     
     position: absolute;
-    left:1%;
-    bottom:-130%;
+    left:100px;
+    top:2000px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -237,15 +237,15 @@
 }
 .main{
     position: absolute;
-    left: 1%;
-    bottom: -167%;
-width: 97%;
-height: 35%;
+    left: 0px;
+    top: 2350px;
+    width: 97%;
+    height: 35%;
 
 }
 .link>a{
     position: absolute;
-    left:40%;
+    left:43%;
     top:3%;
     color: orange;
     font-size:large;
@@ -262,8 +262,8 @@ height: 35%;
 }
 .main1{
     position: absolute;
-    left:1%;
-    bottom: -206%;
+    left:0px;
+    top: 2500px;
     width: 98%;
     height: 44%;
     
@@ -272,20 +272,20 @@ height: 35%;
     position: absolute;
     left:33%;
     top:25%;
-  
     width: 60%;
-
 }
 .image2>img{
     width: 20%;
     height: 30%;
-=======
+}
+
+/* janak code */
 #violetBtnsHolder{
     text-align: center;
     /* border: 1px solid black; */
     font-size: 25px;
     font-family: sans-serif;
-    width: 1200px;
+    width: 1000px;
     height: 200px;
     position: absolute;
     top: 900px;
@@ -296,24 +296,28 @@ height: 35%;
     width: 50px;
     height: 50px;
     background-color: rgba(245, 77, 245, 0.836);
-    margin: 10px 0px 0px 580px;
+    margin: 10px 0px 0px 530px;
     border-radius: 25px;
 }
 .violetText{
     font-size: 20px;
     line-height: 20px;
     font-weight: lighter;
+    margin-left: 150px;
+}
+.violetHeading{
+    margin-left: 120px;
 }
 .buttonsDiv{
     margin-top: 20px;
     position: absolute;
-    left: -60px;
+    left: -80px;
     top: 180px;
     width: 1200px;
     /* justify-content: center; */
 }
 .buttonsDiv > button{
-    margin-left: 120px;
+    margin-left: 150px;
     width: 50px;
     height: 50px;
     border-radius: 25px;
@@ -323,14 +327,14 @@ height: 35%;
 .btn1Text{
     font-size: 10px;
     position: absolute;
-    left: 250px;
+    left: 220px;
     top: 65px;
     font-family: sans-serif;
 }
 .btn2Text{
     font-size: 10px;
     position: absolute;
-    left: 430px;
+    left: 410px;
     top: 65px;
     font-family: sans-serif;
 }
@@ -344,14 +348,14 @@ height: 35%;
 .btn4Text{
     font-size: 10px;
     position: absolute;
-    left: 780px;
+    left: 820px;
     top: 65px;
     font-family: sans-serif;
 }
 .btn5Text{
     font-size: 10px;
     position: absolute;
-    left: 950px;
+    left: 1010px;
     top: 65px;
     font-family: sans-serif;
 }
