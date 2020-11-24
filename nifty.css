@@ -163,6 +163,123 @@
     color: rgb(212, 139, 3);
     text-align: center;
 }
+
+/*Rudra Pratap Singh */
+.cl1{
+    position: absolute;
+    bottom: -90%;
+    left:1%;
+    width: 97%;
+    height:35%;
+   
+}
+.circle{
+    width:60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: yellow;
+    position: absolute;
+    left:45%;
+    top:20%;
+}
+.heading{
+    position: absolute;
+    top:45%;
+    left:35%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blocks{
+    width: 98%;
+    height:38%;
+    
+    position: absolute;
+    left:1%;
+    bottom:-130%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.blocks1{
+    margin: 10px;
+    background-color:whitesmoke;
+    border-radius: 15px ;
+    width: 32%;
+    padding:9px;
+}
+.names{
+    position: absolute;
+    bottom:13%;
+    left: 2%;
+    line-height: 3px;
+}
+.names1{
+    position: absolute;
+    left:35.5%;
+    bottom: 13%;
+    line-height: 3px;
+}
+
+.names>p{
+    color:darkgrey;
+}
+.names1>p{
+    color: darkgrey;
+}
+.names2{
+    position: absolute;
+    left: 69%;
+    bottom: 13%;
+    line-height: 3px;
+}
+.names2>p{
+    color:darkgrey;
+}
+.main{
+    position: absolute;
+    left: 1%;
+    bottom: -167%;
+width: 97%;
+height: 35%;
+
+}
+.link>a{
+    position: absolute;
+    left:40%;
+    top:3%;
+    color: orange;
+    font-size:large;
+}
+.image1 {
+    position: absolute;
+    left:30%;
+    top:28%;
+}
+
+.image1>img{
+    width: 20%;
+    height: 20%;
+}
+.main1{
+    position: absolute;
+    left:1%;
+    bottom: -206%;
+    width: 98%;
+    height: 44%;
+    
+}
+.image2{
+    position: absolute;
+    left:33%;
+    top:25%;
+  
+    width: 60%;
+
+}
+.image2>img{
+    width: 20%;
+    height: 30%;
+=======
 #violetBtnsHolder{
     text-align: center;
     /* border: 1px solid black; */
@@ -281,4 +398,5 @@
     font-size: 20px;
     font-family: sans-serif;
     height: 40px;
+
 }
