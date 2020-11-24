@@ -92,5 +92,253 @@ var violetText = document.createElement("a")
 violetText.setAttribute("class", "violetText")
 violetText.textContent = "Create a clear plan of action for your projects and automat your progress tracking"
 
-// var violetBtn1 = document.createElement("button")
-violetBtnDiv.append(violetIcon, violetHeading, violetText)
+var buttonsDiv = document.createElement("div")
+buttonsDiv.setAttribute("class", "buttonsDiv")
+
+var violetBtn1 = document.createElement("button")
+violetBtn1.setAttribute("class", "violetBtn1")
+var btn1Text = document.createElement("a")
+btn1Text.setAttribute("class", "btn1Text")
+btn1Text.textContent = "SET GOALS & TIMELINES"
+violetBtn1.addEventListener("mouseover", function(){
+    btn1Text.style.color = "rgba(245, 77, 245, 0.836)"
+    violetBtn1.style.backgroundColor = "rgba(245, 77, 245, 0.836)"
+})
+
+var violetBtn2 = document.createElement("button")
+violetBtn2.setAttribute("class", "violetBtn2")
+var btn2Text = document.createElement("a")
+btn2Text.setAttribute("class", "btn2Text")
+btn2Text.textContent = "COLLABORATE ON TASKS"
+violetBtn2.addEventListener("mouseover", function(){
+    btn2Text.style.color = "rgba(245, 77, 245, 0.836)"
+    violetBtn2.style.backgroundColor = "rgba(245, 77, 245, 0.836)"
+    
+})
+
+var violetBtn3 = document.createElement("button")
+violetBtn3.setAttribute("class", "violetBtn3")
+var btn3Text = document.createElement("a")
+btn3Text.setAttribute("class", "btn3Text")
+btn3Text.textContent = "ESTABLISH KNOWLEDGE HUB"
+violetBtn3.addEventListener("mouseover", function(){
+    btn3Text.style.color = "rgba(245, 77, 245, 0.836)"
+    violetBtn3.style.backgroundColor = "rgba(245, 77, 245, 0.836)"
+})
+
+var violetBtn4 = document.createElement("button")
+violetBtn4.setAttribute("class", "violetBtn4")
+var btn4Text = document.createElement("a")
+btn4Text.setAttribute("class", "btn4Text")
+btn4Text.textContent = "CREATE DOCS & NOTES"
+violetBtn4.addEventListener("mouseover", function(){
+    btn4Text.style.color = "rgba(245, 77, 245, 0.836)"
+    violetBtn4.style.backgroundColor = "rgba(245, 77, 245, 0.836)"
+})
+
+var violetBtn5 = document.createElement("button")
+violetBtn5.setAttribute("class", "violetBtn5")
+var btn5Text = document.createElement("a")
+btn5Text.setAttribute("class", "btn5Text")
+btn5Text.textContent = "BALANCE WORKLOADS"
+violetBtn5.addEventListener("mouseover", function(){
+    btn5Text.style.color = "rgba(245, 77, 245, 0.836)"
+    violetBtn5.style.backgroundColor = "rgba(245, 77, 245, 0.836)"
+})
+
+buttonsDiv.append(violetBtn1, violetBtn2, violetBtn3, violetBtn4, violetBtn5, btn1Text, btn2Text, btn3Text, btn4Text, btn5Text)
+violetBtnDiv.append(violetIcon, violetHeading, violetText, buttonsDiv)
+
+
+//creating page with image and text when violet buttons are clicked
+//1st button
+
+    var mainParent = document.getElementById("violetBtnItems") 
+
+    var page1 = document.createElement("div")
+    page1.setAttribute("id", "page1")
+
+    var serialNo = document.createElement("h1")
+    serialNo.setAttribute("class","serialNumber")
+    serialNo.textContent = "01."
+
+    var pageHead = document.createElement("h3")
+    pageHead.setAttribute("class", "pageHeading")
+    pageHead.textContent = "Set goals & timelines"
+
+    var pagePara1 = document.createElement("p")
+    pagePara1.setAttribute("class","pagePara1")
+    pagePara1.textContent = "Milestones set a visual timeline for your project"
+
+    var pagePara2 = document.createElement("p")
+    pagePara2.setAttribute("class","pagePara2")
+    pagePara2.textContent = "sprints and create team alignment by automating"
+
+    var pagePara3 = document.createElement("p")
+    pagePara3.setAttribute("class","pagePara3")
+    pagePara3.textContent = "progress as associate tasks are completed."
+
+    var pagePara4 = document.createElement("a")
+    pagePara4.setAttribute("class", "pagePara4")
+    pagePara4.textContent = "Learn more about Milestones >"
+
+    var pageTrial = document.createElement("h5")
+    pageTrial.setAttribute("class", "pageTrial")
+    pageTrial.textContent = "Start Free Trial"
+
+    var pageImg = document.createElement("img")
+    pageImg.setAttribute("src", "https://niftypm.com/_nuxt/img/large@1x.ba76fb1.webp")
+    pageImg.setAttribute("class", "pageImg")
+
+    page1.append(serialNo, pageHead, pagePara1, pagePara2, pagePara3, pagePara4, pageTrial)
+    mainParent.append(page1, pageImg)
+
+
+//2nd button
+function createItem2(){
+    var previousPage1 = document.getElementById("page1")
+    previousPage1.style.display = "none"
+
+    var mainParent = document.getElementById("violetBtnItems") 
+
+    var page2 = document.createElement("div")
+    page2.setAttribute("id", "page2")
+
+    var serialNo = document.createElement("h1")
+    serialNo.setAttribute("class","serialNumber")
+    serialNo.textContent = "02."
+
+    var pageHead = document.createElement("h3")
+    pageHead.setAttribute("class", "pageHeading")
+    pageHead.textContent = "Collaborate on tasks"
+
+    var pagePara1 = document.createElement("p")
+    pagePara1.setAttribute("class","pagePara1")
+    pagePara1.textContent = "Tasks enable you to flexibly, organize prioritize"
+
+    var pagePara2 = document.createElement("p")
+    pagePara2.setAttribute("class","pagePara2")
+    pagePara2.textContent = "and manage daily work with high level of detail"
+
+    var pagePara3 = document.createElement("p")
+    pagePara3.setAttribute("class","pagePara3")
+    pagePara3.textContent = "in list, kanban and swimlane views."
+
+    var pagePara4 = document.createElement("a")
+    pagePara4.setAttribute("class", "pagePara4")
+    pagePara4.textContent = "Learn more about tasks >"
+
+    var pageTrial = document.createElement("h5")
+    pageTrial.setAttribute("class", "pageTrial")
+    pageTrial.textContent = "Start Free Trial"
+
+    var pageImg = document.createElement("img")
+    pageImg.setAttribute("src", "https://niftypm.com/_nuxt/img/large@1x.ba76fb1.webp")
+    pageImg.setAttribute("class", "pageImg")
+
+    page2.append(serialNo, pageHead, pagePara1, pagePara2, pagePara3, pagePara4, pageTrial)
+    mainParent.append(previousPage1, page2, pageImg)
+}
+violetBtn2.addEventListener("click", createItem2)
+
+//3rd button
+function createItem3(){
+    var previousPage1 = document.getElementById("page1")
+    var previousPage2 = document.getElementById("page2")
+    previousPage1.style.display = "none"
+    previousPage2.style.display = "none"
+
+    var mainParent = document.getElementById("violetBtnItems") 
+
+    var page3 = document.createElement("div")
+    page3.setAttribute("id", "page3")
+
+    var serialNo = document.createElement("h1")
+    serialNo.setAttribute("class","serialNumber")
+    serialNo.textContent = "03."
+
+    var pageHead = document.createElement("h3")
+    pageHead.setAttribute("class", "pageHeading")
+    pageHead.textContent = "Establish knowledge hub"
+
+    var pagePara1 = document.createElement("p")
+    pagePara1.setAttribute("class","pagePara1")
+    pagePara1.textContent = "Discussions empower all project members to"
+
+    var pagePara2 = document.createElement("p")
+    pagePara2.setAttribute("class","pagePara2")
+    pagePara2.textContent = "share ideas finalize specifications and gather"
+
+    var pagePara3 = document.createElement("p")
+    pagePara3.setAttribute("class","pagePara3")
+    pagePara3.textContent = "feedback in real time."
+
+    var pagePara4 = document.createElement("a")
+    pagePara4.setAttribute("class", "pagePara4")
+    pagePara4.textContent = "Learn more about discussions >"
+
+    var pageTrial = document.createElement("h5")
+    pageTrial.setAttribute("class", "pageTrial")
+    pageTrial.textContent = "Start Free Trial"
+
+    var pageImg = document.createElement("img")
+    pageImg.setAttribute("src", "https://niftypm.com/_nuxt/img/large@1x.ba76fb1.webp")
+    pageImg.setAttribute("class", "pageImg")
+
+    page3.append(serialNo, pageHead, pagePara1, pagePara2, pagePara3, pagePara4, pageTrial)
+    mainParent.append(previousPage1,previousPage2, page3, pageImg)
+}
+violetBtn3.addEventListener("click", createItem3)
+
+//4th button
+function createItem4(){
+    var previousPage1 = document.getElementById("page1")
+    var previousPage2 = document.getElementById("page2")
+    var previousPage3 = document.getElementById("page3")
+    previousPage1.style.display = "none"
+    previousPage2.style.display = "none"
+    previousPage3.style.display = "none"
+
+    var mainParent = document.getElementById("violetBtnItems") 
+
+    var page4 = document.createElement("div")
+    page4.setAttribute("id", "page4")
+
+    var serialNo = document.createElement("h1")
+    serialNo.setAttribute("class","serialNumber")
+    serialNo.textContent = "04."
+
+    var pageHead = document.createElement("h3")
+    pageHead.setAttribute("class", "pageHeading")
+    pageHead.textContent = "Create docs & notes"
+
+    var pagePara1 = document.createElement("p")
+    pagePara1.setAttribute("class","pagePara1")
+    pagePara1.textContent = "Create beautiful docs, notes & wikis for your"
+
+    var pagePara2 = document.createElement("p")
+    pagePara2.setAttribute("class","pagePara2")
+    pagePara2.textContent = "project and share with anyone. Nifty even"
+
+    var pagePara3 = document.createElement("p")
+    pagePara3.setAttribute("class","pagePara3")
+    pagePara3.textContent = "integrated natively with Google Docs."
+
+    var pagePara4 = document.createElement("a")
+    pagePara4.setAttribute("class", "pagePara4")
+    pagePara4.textContent = "Learn more about Docs >"
+
+    var pageTrial = document.createElement("h5")
+    pageTrial.setAttribute("class", "pageTrial")
+    pageTrial.textContent = "Start Free Trial"
+
+    var pageImg = document.createElement("img")
+    pageImg.setAttribute("src", "https://niftypm.com/_nuxt/img/large@1x.ba76fb1.webp")
+    pageImg.setAttribute("class", "pageImg")
+
+    page4.append(serialNo, pageHead, pagePara1, pagePara2, pagePara3, pagePara4, pageTrial)
+    mainParent.append(previousPage1,previousPage2,previousPage3, page4, pageImg)
+}
+violetBtn4.addEventListener("click", createItem4)
+
+
