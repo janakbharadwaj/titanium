@@ -77,3 +77,20 @@ nyu.setAttribute("class", "nyuLogo")
 //appending logos to its parent
 logoParent.append(logoHeading, apple, verizon, periData, emovis, vmware, ibm, loreal, nyu)
 logosDiv.append(logoParent)
+
+//violet buttons and "say good bye to meetings" part creating and appending elements
+var violetBtnDiv = document.getElementById("violetBtnsHolder")
+
+var violetIcon = document.createElement("p")
+violetIcon.setAttribute("class", "violetIconStyle")
+
+var violetHeading = document.createElement("h3")
+violetHeading.setAttribute("class", "violetHeading")
+violetHeading.textContent = "Say good bye to status meetings!"
+
+var violetText = document.createElement("a")
+violetText.setAttribute("class", "violetText")
+violetText.textContent = "Create a clear plan of action for your projects and automat your progress tracking"
+
+// var violetBtn1 = document.createElement("button")
+violetBtnDiv.append(violetIcon, violetHeading, violetText)
