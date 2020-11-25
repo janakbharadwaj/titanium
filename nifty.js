@@ -341,6 +341,52 @@ function createItem4(){
 }
 violetBtn4.addEventListener("click", createItem4)
 
+//login page
+var loginBtn = document.querySelector(".loginBtn")
+
+function createLoginPage(){
+    var firstCont = document.querySelector(".firstContainerLeftDown")
+    var googleBox = document.querySelector(".googleBox")
+    var firstLeftImg = document.querySelector(".firstLeftImg")
+    var firstRightImg = document.querySelector(".firstRightImg")
+    var violetBtnHldr = document.querySelector("#violetBtnsHolder")
+    var btnDiv = document.querySelector(".buttonsDiv")
+    var violetBtnItms = document.querySelector("#violetBtnItems")
+    var pageImg = document.querySelector(".pageImg")
+    var firstParnt = document.querySelector("#firstParent")
+    var yelloLogo = document.querySelector(".cl1")
+    var threeBlocks = document.querySelector(".blocks")
+    var main_class = document.querySelector(".main")
+    var main1_class = document.querySelector(".main1")
+    var logos = document.getElementById("logosDiv")
+    var top = document.getElementById("topBar")
+
+    logos.style.display = "none"
+    top.style.display = "none"
+    firstCont.style.display = "none"
+    googleBox.style.display = "none"
+    firstLeftImg.style.display = "none"
+    firstRightImg.style.display = "none"
+    violetBtnHldr.style.display = "none"
+    btnDiv.style.display = "none"
+    violetBtnItms.style.display = "none"
+    pageImg.style.display = "none"
+    firstParnt.style.display = "none"
+    yelloLogo.style.display = "none"
+    threeBlocks.style.display = "none"
+    main_class.style.display = "none"
+    main1_class.style.display = "none"
+
+    var loginParent = document.getElementById("loginPage")
+
+    var loginText = document.createElement("h1")
+    loginText.setAttribute("class","loginText")
+    loginText.textContent = "THIS IS LOGIN PAGE"
+
+    loginParent.append(loginText)
+
+}
+loginBtn.addEventListener("click",createLoginPage)
 
 //got clients page
 
