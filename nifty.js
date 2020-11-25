@@ -396,4 +396,365 @@ clientParent.append(picture2)
 clientBtn.addEventListener('click',createClientPage)
 
 
+//login page
+var loginBtn = document.querySelector(".loginBtn")
 
+function createLoginPage(){
+    var firstCont = document.querySelector(".firstContainerLeftDown")
+    var googleBox = document.querySelector(".googleBox")
+    var firstLeftImg = document.querySelector(".firstLeftImg")
+    var firstRightImg = document.querySelector(".firstRightImg")
+    var violetBtnHldr = document.querySelector("#violetBtnsHolder")
+    var btnDiv = document.querySelector(".buttonsDiv")
+    var violetBtnItms = document.querySelector("#violetBtnItems")
+    var pageImg = document.querySelector(".pageImg")
+    var firstParnt = document.querySelector("#firstParent")
+    var yelloLogo = document.querySelector(".cl1")
+    var threeBlocks = document.querySelector(".blocks")
+    var main_class = document.querySelector(".main")
+    var main1_class = document.querySelector(".main1")
+    var logos = document.getElementById("logosDiv")
+    var top = document.getElementById("topBar")
+
+    logos.style.display = "none"
+    top.style.display = "none"
+    firstCont.style.display = "none"
+    googleBox.style.display = "none"
+    firstLeftImg.style.display = "none"
+    firstRightImg.style.display = "none"
+    violetBtnHldr.style.display = "none"
+    btnDiv.style.display = "none"
+    violetBtnItms.style.display = "none"
+    pageImg.style.display = "none"
+    firstParnt.style.display = "none"
+    yelloLogo.style.display = "none"
+    threeBlocks.style.display = "none"
+    main_class.style.display = "none"
+    main1_class.style.display = "none"
+
+    var loginParent = document.getElementById("loginPage")
+
+    var loginText = document.createElement("h1")
+    loginText.setAttribute("class","loginText")
+    loginText.textContent = "THIS IS LOGIN PAGE"
+
+    loginParent.append(loginText)
+
+}
+loginBtn.addEventListener("click",createLoginPage)
+
+//got clients page
+
+var clientBtn = document.querySelector(".gotClientsBtn")
+
+function createClientPage(){
+    var firstCont = document.querySelector(".firstContainerLeftDown")
+    var googleBox = document.querySelector(".googleBox")
+    var firstLeftImg = document.querySelector(".firstLeftImg")
+    var firstRightImg = document.querySelector(".firstRightImg")
+    var violetBtnHldr = document.querySelector("#violetBtnsHolder")
+    var btnDiv = document.querySelector(".buttonsDiv")
+    var violetBtnItms = document.querySelector("#violetBtnItems")
+    var pageImg = document.querySelector(".pageImg")
+    var firstParnt = document.querySelector("#firstParent")
+    var yelloLogo = document.querySelector(".cl1")
+    var threeBlocks = document.querySelector(".blocks")
+    var main_class = document.querySelector(".main")
+    var main1_class = document.querySelector(".main1")
+    // var logos = document.getElementById("logosDiv")
+
+    // logos.style.display = "none"
+    firstCont.style.display = "none"
+    googleBox.style.display = "none"
+    firstLeftImg.style.display = "none"
+    firstRightImg.style.display = "none"
+    violetBtnHldr.style.display = "none"
+    btnDiv.style.display = "none"
+    violetBtnItms.style.display = "none"
+    pageImg.style.display = "none"
+    firstParnt.style.display = "none"
+    yelloLogo.style.display = "none"
+    threeBlocks.style.display = "none"
+    main_class.style.display = "none"
+    main1_class.style.display = "none"
+
+    var clientParent = document.getElementById("clientPage")
+
+    //first part in top area clients page
+    var firstDiv = document.createElement("div")
+    firstDiv.setAttribute("class", "firstDiv")
+
+    var redText = document.createElement("h3")
+    redText.setAttribute("class", "redText")
+    redText.textContent = "CLIENT PROJECT MANAGEMENT"
+
+    var firstHead = document.createElement("h1")
+    firstHead.setAttribute("class", "firstHead")
+    firstHead.textContent = "Automated progress reporting for your clients."
+
+    var firstPara1 = document.createElement("p")
+    firstPara1.setAttribute("class", "firstpara1")
+    firstPara1.textContent = "Never lose a client due to poor communication again. Manage client projects,"
+
+    var firstPara2 = document.createElement("p")
+    firstPara2.setAttribute("class", "firstpara2")
+    firstPara2.textContent = "delivers, and communications in one place."
+
+    var input = document.createElement("input")
+    input.setAttribute("placeholder","name@company.com")
+    input.setAttribute("class", "input")
+
+    var tryFree = document.createElement("h3")
+    tryFree.setAttribute("class","tryFree")
+    tryFree.textContent = "Try Nifty For Free"
+
+    var googleLogo = document.createElement("img")
+    googleLogo.setAttribute("src","https://pbs.twimg.com/profile_images/1305883698471018496/_4BfrCaP_200x200.jpg")
+    googleLogo.setAttribute("class","googleLogo")
+
+    var firstFooter = document.createElement("p")
+    firstFooter.setAttribute("class","firstFooter")
+    firstFooter.textContent = "No credit card required.Available on Mac, Windows, iOS, & Android."
+
+    firstDiv.append(redText, firstHead, firstPara1, firstPara2, input, tryFree, googleLogo, firstFooter)
+    clientParent.append(firstDiv)
+
+
+    //second part in top area clients page
+    var secondDiv = document.createElement("div")
+    secondDiv.setAttribute("class", "secondDiv")
+
+    var btn1 = document.createElement("button")
+    btn1.setAttribute("class", "orangeBtn1")
+    var btnFoot1 = document.createElement("p")
+    btnFoot1.setAttribute("class", "btnFoot1")
+    btnFoot1.textContent = "STREAMLINED COMMUNICATION"
+    btn1.addEventListener("mouseover", function(){
+        btn1.style.backgroundColor = "rgb(248, 109, 109)"
+        btnFoot1.style.color = "rgb(248, 109, 109)"
+    })
+
+    var btn2 = document.createElement("button")
+    btn2.setAttribute("class", "orangeBtn2")
+    var btnFoot2 = document.createElement("p")
+    btnFoot2.setAttribute("class", "btnFoot2")
+    btnFoot2.textContent = "AUTOMATED REPORTING"
+    btn2.addEventListener("mouseover", function(){
+        btn2.style.backgroundColor = "rgb(248, 109, 109)"
+        btnFoot2.style.color = "rgb(248, 109, 109)"
+    })
+
+    var btn3 = document.createElement("button")
+    btn3.setAttribute("class", "orangeBtn3")
+    var btnFoot3 = document.createElement("p")
+    btnFoot3.setAttribute("class", "btnFoot3")
+    btnFoot3.textContent = "CENTRALIZED DELIVERABLES"
+    btn3.addEventListener("mouseover", function(){
+        btn3.style.backgroundColor = "rgb(248, 109, 109)"
+        btnFoot3.style.color = "rgb(248, 109, 109)"
+    })
+
+    var orangeBtnsDiv = document.createElement("div")
+    orangeBtnsDiv.setAttribute("class","orangeBtnsDiv")
+
+    var btnsTextDiv = document.createElement("div")
+    btnsTextDiv.setAttribute("class","btnsTextDiv")
+
+    orangeBtnsDiv.append(btn1, btn2, btn3)
+    btnsTextDiv.append(btnFoot1, btnFoot2, btnFoot3)
+    secondDiv.append(orangeBtnsDiv, btnsTextDiv)
+    // clientParent.append(secondDiv)
+
+    //1st  orange button 
+    
+    var orangePage1 = document.createElement("div")
+    orangePage1.setAttribute("class", "orangePage1")
+
+    var orngSno = document.createElement("h1")
+    orngSno.setAttribute("class","orngSno")
+    orngSno.textContent = "01."
+
+    var orngHead1 = document.createElement("h3")
+    orngHead1.setAttribute("class","orngHead1")
+    orngHead1.textContent = "Streamlined"
+
+    var orngHead2 = document.createElement("h3")
+    orngHead2.setAttribute("class","orngHead2")
+    orngHead2.textContent = "Communication"
+
+    var orngPara1 = document.createElement("p")
+    orngPara1.setAttribute("class", "orngPara1")
+    orngPara1.textContent = "A Space for your team and client to share ideas,"
+
+    var orngPara2 = document.createElement("p")
+    orngPara2.setAttribute("class", "orngPara2")
+    orngPara2.textContent = "gather feedback, finalize specs and turn"
+
+    var orngPara3 = document.createElement("p")
+    orngPara3.setAttribute("class", "orngPara3")
+    orngPara3.textContent = "discussions into actions."
+
+    var orngTrial = document.createElement("p")
+    orngTrial.setAttribute("class", "orngTrial")
+    orngTrial.textContent = "Start Free Trial"
+
+    var orngImg1 = document.createElement("div")
+
+    var ornImg = document.createElement("img")
+    ornImg.setAttribute("src", "https://niftypm.com/_nuxt/img/large@1x.1450581.webp")
+    ornImg.setAttribute("class", "ornImg")
+
+    orngImg1.append(ornImg)
+
+    orangePage1.append(orngSno, orngHead1, orngHead2, orngPara1, orngPara2, orngPara3, orngTrial)
+    secondDiv.append(orangePage1, orngImg1)
+    clientParent.append(secondDiv)
+
+    //2nd orange button
+    function createPage2(){
+        var prevPage = document.querySelector(".orangePage1")
+        prevPage.style.display = "none"
+        var prevImg = document.querySelector(".ornImg")
+        prevImg.style.display = "none"
+
+        var orangePage2 = document.createElement("div")
+        orangePage2.setAttribute("class", "orangePage2")
+
+        var orngSno = document.createElement("h1")
+        orngSno.setAttribute("class","orngSno")
+        orngSno.textContent = "02."
+
+        var orngHead1 = document.createElement("h3")
+        orngHead1.setAttribute("class","orngHead1")
+        orngHead1.textContent = "Automated"
+
+        var orngHead2 = document.createElement("h3")
+        orngHead2.setAttribute("class","orngHead2")
+        orngHead2.textContent = "Reporting"
+
+        var orngPara1 = document.createElement("p")
+        orngPara1.setAttribute("class", "orngPara1")
+        orngPara1.textContent = "A Space for your team and client to share ideas,"
+
+        var orngPara2 = document.createElement("p")
+        orngPara2.setAttribute("class", "orngPara2")
+        orngPara2.textContent = "gather feedback, finalize specs and turn"
+
+        var orngPara3 = document.createElement("p")
+        orngPara3.setAttribute("class", "orngPara3")
+        orngPara3.textContent = "discussions into actions."
+
+        var orngTrial = document.createElement("p")
+        orngTrial.setAttribute("class", "orngTrial")
+        orngTrial.textContent = "Start Free Trial"
+
+        var orngImg1 = document.createElement("div")
+
+        var ornImg = document.createElement("img")
+        ornImg.setAttribute("src", "https://niftypm.com/_nuxt/img/large@1x.ba76fb1.webp")
+        ornImg.setAttribute("class", "ornImg")
+
+        orngImg1.append(ornImg)
+
+        orangePage2.append(orngSno, orngHead1, orngHead2, orngPara1, orngPara2, orngPara3, orngTrial)
+        secondDiv.append(orangePage2, orngImg1)
+        clientParent.append(secondDiv)
+
+    }
+    btn2.addEventListener("click", createPage2)
+    
+
+    
+    //logos part in clients page
+    var logosPart = document.getElementById("logosDiv")
+    var logoHolder = document.createElement("div")
+    logoHolder.setAttribute("class", "logos")
+    logoHolder.append(logosPart)
+    clientParent.append(logoHolder)
+    
+
+    // //orange circle logo part
+    var orange_logo_div = document.createElement("div")
+    orange_logo_div.setAttribute("class", "orng_logo_div")
+
+    var orng_logo = document.createElement("p")
+    orng_logo.setAttribute("class","orng_logo")
+
+    var orng_logo_head = document.createElement("h2")
+    orng_logo_head.setAttribute("class","orng_head")
+    orng_logo_head.textContent = "Client Project Management Made Easy"
+
+    var orng_logo_para = document.createElement("p")
+    orng_logo_para.setAttribute("class","orng_para")
+    orng_logo_para.textContent = "Enhance your project management process and build stronger client relationships"
+
+    orange_logo_div.append(orng_logo, orng_logo_head, orng_logo_para)
+    clientParent.append(orange_logo_div)
+
+    //three consecutive blocks in down part
+    // var threeBlocks = document.querySelector(".blocks")
+    // var blocksPart = document.createElement("div")
+    // blocksPart.setAttribute("class","blocksPart")
+    // blocksPart.append(threeBlocks)
+    // clientParent.append(blocksPart)
+
+    //individual div 1
+    var indivDiv1 = document.createElement("div")
+    indivDiv1.setAttribute("class","indivDiv1")
+
+        var indiv1Text = document.createElement("div")
+        indiv1Text.setAttribute("class","indiv1Text")
+
+        var indiv1Head = document.createElement("h2")
+        indiv1Head.setAttribute("class","indiv1Head")
+        indiv1Head.textContent = "Stay in Control"
+
+        var indiv1Para1 = document.createElement("p")
+        indiv1Para1.setAttribute("class","indiv1Para1")
+        indiv1Para1.textContent = "Hide specific internal coversations,tasks and"
+        var indiv1Para2 = document.createElement("p")
+        indiv1Para2.setAttribute("class","indiv1Para2")
+        indiv1Para2.textContent = "milestones from your clients to ensure they only"
+        var indiv1Para3 = document.createElement("p")
+        indiv1Para3.setAttribute("class","indiv1Para3")
+        indiv1Para3.textContent = "see what you want them to see"
+
+        var indiv1Img = document.createElement("img")
+        indiv1Img.setAttribute("class","indiv1Img")
+        indiv1Img.setAttribute("src","https://niftypm.com/_nuxt/img/large@1x.e11831f.webp")
+
+    indiv1Text.append(indiv1Head, indiv1Para1, indiv1Para2, indiv1Para3)
+    indivDiv1.append(indiv1Text, indiv1Img)
+    clientParent.append(indivDiv1)
+
+    //individual div 2
+    var indivDiv2 = document.createElement("div")
+    indivDiv2.setAttribute("class","indivDiv2")
+
+        var indiv2Text = document.createElement("div")
+        indiv2Text.setAttribute("class","indiv2Text")
+
+        var indiv2Head = document.createElement("h2")
+        indiv2Head.setAttribute("class","indiv2Head")
+        indiv2Head.textContent = "Automate Progress "
+        var indiv2Head1 = document.createElement("h2")
+        indiv2Head1.setAttribute("class","indiv2Head1")
+        indiv2Head1.textContent = "Tracking"
+
+        var indiv2Para1 = document.createElement("p")
+        indiv2Para1.setAttribute("class","indiv2Para1")
+        indiv2Para1.textContent = "Automate your projects progress for clients to see"
+        var indiv2Para2 = document.createElement("p")
+        indiv2Para2.setAttribute("class","indiv2Para2")
+        indiv2Para2.textContent = "based on completion of connected tasks."
+
+        var indiv2Img = document.createElement("img")
+        indiv2Img.setAttribute("class","indiv2Img")
+        indiv2Img.setAttribute("src","https://niftypm.com/_nuxt/img/large@1x.e6ff289.webp")
+
+    indiv2Text.append(indiv2Head, indiv2Head1, indiv2Para1, indiv2Para2)
+    indivDiv2.append(indiv2Text, indiv2Img)
+    clientParent.append(indivDiv2)
+
+}
+clientBtn.addEventListener("click", createClientPage)
