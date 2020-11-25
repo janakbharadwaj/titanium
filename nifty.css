@@ -7,6 +7,7 @@
     /* border: 1px solid black; */
     background-color: white;
     margin: 20px 0px 10px 0px;
+    
 }
 #topBar > img{
     margin-left: 200px;
@@ -28,12 +29,12 @@
     margin-left: 300px;
 }
 .demoBtn{
-    margin-left: 290px;
+    margin-left: 200px;
     border: 1px solid black;
     border-radius: 8px;
 }
 .loginBtn{
-    margin-right: 180px;
+    margin-right: 10px;
 }
 
 #firstContainer{
@@ -174,6 +175,7 @@
     width: 97%;
     height:35%;
     font-family: sans-serif;
+    
 }
 .circle{
     width:60px;
@@ -196,11 +198,12 @@
     height:38%;
     
     position: absolute;
-    left:100px;
+    left:30px;
     top:2000px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    
 }
 .blocks1{
     margin: 10px;
@@ -310,7 +313,7 @@
 }
 .text1{
     position: absolute;
-    left: 50%;
+    left: 40%;
     top:52%;
 }
 .flx{
@@ -395,7 +398,6 @@
     width: 90%;
     height: 500px;
     border-radius: 2%;
-
 }
 .a2{
     position:absolute;
@@ -414,11 +416,19 @@
 #id2{
     background-color: orange;
 width: 150px;
-height: 30px;
+height: 40px;
+border-radius: 5px;
+color: white;
+font-size: large;
+font-weight: bold;
 }
 #id1{
     width: 200px;
-    height: 30px;
+    height: 40px;
+    border-radius: 5px;
+    color:green;
+    font-size: large;
+    font-weight: bold;
 }
 .bottompart{
     display: flex;
@@ -563,6 +573,74 @@ height: 30px;
     font-family: sans-serif;
     height: 40px;
 }
+/* Rudra Code*/
+.setting{
+    position: absolute;
+    left: -10%;
+    top:-110%;
+    }
+.hour{
+    position: absolute;
+    bottom: -14%;
+        left:10%;
+    width:30%;
+}
+.picturetext{
+     position: absolute;
+    left:35%;
+    bottom:-30%;
+    width: 70%;
+    background-image: url("https://static5.depositphotos.com/1008855/444/i/600/depositphotos_4446869-stock-photo-white-flower-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 75% 100%;
+
+}
+.picturetext>img{
+    width: 60%;
+    height:45%;
+}
+.picturetext1{
+    position: absolute;
+    left:10%;
+    bottom:-120%;
+    width:50%;
+    background-image: url("https://static5.depositphotos.com/1008855/444/i/600/depositphotos_4446869-stock-photo-white-flower-background.jpg");
+    background-position: 70% 90%;
+    background-repeat: no-repeat;
+   border-radius: 50%;
+}
+.picturetext1>img{
+    width:80%;
+    height: 25%;
+}
+.record{
+    position:absolute;
+    left:62%;
+    bottom: -105%;
+    width:28%;
+}
+
+.sr{
+    position: absolute;
+    left:10%;
+    bottom: -190%;
+}
+.sr>p , .record>p , .hour>p{
+    line-height: 23px;
+}
+.picturetext2{
+    position: absolute;
+    left:35%;
+    bottom:-195%;
+    background-image: url("https://static5.depositphotos.com/1008855/444/i/600/depositphotos_4446869-stock-photo-white-flower-background.jpg");
+    background-repeat: no-repeat;
+    background-position: 70 90%;
+    width: 65%;
+    }
+.picturetext2>img{
+    width: 50%;
+    height: 18%;
+    }
 .firstDiv{
     text-align: center;
     /* border: 1px solid black; */
