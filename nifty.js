@@ -340,5 +340,60 @@ function createItem4(){
     mainParent.append(previousPage1,previousPage2,previousPage3, page4, pageImg)
 }
 violetBtn4.addEventListener("click", createItem4)
+//Rudra Code
+var clientBtn=document.querySelector(".gotClientsBtn")
+function createClientPage(){
+var firstCount= document.querySelector(".firstContainerLeftDown")
+var google=document.querySelector(".googleBox");
+var firstLeftImg=document.querySelector(".firstLeftImg")
+var  firstRightImg= document.querySelector(".firstRightImg")
+var violetBtnHldr= document.querySelector("#violetBtnsHolder",)
+var btnDiv=document.querySelector(".buttonsDiv")
+var violetBtnItms=document.querySelector("#violetBtnItems")
+var pageImg= document.querySelector(".pageImg")
+var firstParnt=document.querySelector("#firstParent")
+firstCount.style.display="none"
+google.style.display="none"
+firstLeftImg.style.display="none"
+firstRightImg.style.display="none"
+violetBtnHldr.style.display="none"
+btnDiv.style.display="none"
+violetBtnItms.style.display="none"
+pageImg.style.display="none"
+firstParnt.style.display="none"
+
+var clientParent=document.getElementById("clientPage")
+var pageText=document.createElement("div")
+pageText.setAttribute('class','hour')
+pageText.innerHTML="<h2>Track Billable Hours</h2><p>Record and export time spent on case efforts<br/> to easily stay on top of the managerial aspects<br/> of the case.</p>"
+clientParent.append(pageText)
+var picture=document.createElement("div")
+picture.setAttribute('class','picturetext')
+picture.innerHTML="<img src='https://niftypm.com/_nuxt/img/large@2x.55917e8.webp' alt=logo/>"
+clientParent.append(picture)
+var picture1=document.createElement("div")
+picture1.setAttribute('class','picturetext1')
+picture1.innerHTML="<img src='https://niftypm.com/_nuxt/img/large@2x.c55af29.webp' alt=logo/>"
+clientParent.append(picture1)
+var pageText1=document.createElement("div")
+pageText1.setAttribute('class','record')
+pageText1.innerHTML="<h2>Keep a Record</h2><p>Keep track of all your interactions and deliverables with timestamps and activity logs on tasks to avoid any miscommunications.</p>"
+ clientParent.append(pageText1)
+ var stored=document.getElementById("logosDiv")
+ var pt=document.createElement('div')
+ pt.setAttribute('class','setting')
+pt.append(stored)
+clientParent.append(pt)
+var pageText2=document.createElement("div")
+pageText2.setAttribute('class','sr')
+pageText2.innerHTML="<h2>Streamline <br/> Responsibilities</h2><p>Assign tasks to your clients to notify them <br/>about what's needed and by when to reduce <br/> unnecessary meetings and naggings.</p>"
+clientParent.append(pageText2)
+var picture2=document.createElement('div')
+picture2.setAttribute('class','picturetext2')
+picture2.innerHTML="<img src='https://niftypm.com/_nuxt/img/large@2x.9e18a93.webp' alt=logo/>"
+clientParent.append(picture2)
+} 
+clientBtn.addEventListener('click',createClientPage)
+
 
 
