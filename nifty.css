@@ -887,6 +887,93 @@ font-weight: bold;
 .indiv2Para1{
     margin-top: 30px;
 }
+/* rudra code */
+.login{
+    position: absolute;
+    left:10%;
+    top:15%;
+    background-color: beige;
+    font-size: medium;
+    width: 40%;
+    height: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.login>img{
+    width: 73%;
+    padding-left: 14%;
+}
+.login>h2{
+    text-align: center;
+}
+.login>p{
+    padding-left: 13%;
+    font-size: medium;
+}
+.hq{
+    position:absolute;
+    left: 50%;
+    top:13%;
+background-color: whitesmoke;
+width: 37%;
+height: 80%;
+}
+#email{
+position: absolute;
+left:54%;
+top:30%;
+width: 44%;
+}
+#fname , #lname{
+    width: 65%;
+    height: 40px;
+    border-radius: 5px;
+}
+.hq>h3{
+    margin-left:11%;
+font-size:x-large;
+}
+.d{
+    position: absolute;
+    left: 54%;
+    top:62%;
+}
+.d>button{
+    width: 720%;
+    background-color:lightseagreen;
+    text-align: center;
+    height: 35px;
+    border-radius: 5px;
+}
+.logonifty{
+    position: absolute;
+    left: 45%;
+    top: 2%;
+}
+.logonifty>img{
+    width: 40%;
+}
+.googlelink{
+    position:absolute;
+    left:64%;
+    top:71%;
+}
+.googlelink>a{
+    text-decoration: none;
+    color: orange;
+    font-size: large;
+}
+.bottomsignup{
+    position: absolute;
+    left: 64%;
+    top:75%;
+    line-height: 8px;
+}
+.bottomsignup>button{
+    color: orange;
+    text-align: center;
+    width:110%;
+    height: 30px;
+}
 .indivDiv3{
     height: 250px;
     margin-top: 100px;
