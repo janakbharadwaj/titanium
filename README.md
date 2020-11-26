@@ -17,3 +17,9 @@
 ### Clients Page:
 - This page gives information about Automated progress reporting for your clients.
 <img width='900' alt='logo' src="https://user-images.githubusercontent.com/73213917/100327706-9e09d380-2ff1-11eb-964a-f2078ea705a1.png">
+
+
+
+### Login Page:
+- Here the user needs to provide all login ceredentials.
+<img width='900' alt='logo' src='https://user-images.githubusercontent.com/73213917/100328455-8c74fb80-2ff2-11eb-812d-4a9b2842b5ed.png'>
