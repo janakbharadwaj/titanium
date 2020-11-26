@@ -10,3 +10,6 @@
  - Other useful link for information on Product and Resources are present on the page.
  <img width='900' alt='logo' src="https://user-images.githubusercontent.com/73213917/100326285-c4c70a80-2fef-11eb-934c-4c5067b130b6.png">
 <img width='900' alt='logo' src="https://user-images.githubusercontent.com/73213917/100326733-559de600-2ff0-11eb-9574-7b565bf24170.png">
+### Clients Page:
+- This page gives information about Automated progress reporting for your clients.
+<img width='900' alt='logo' src="https://user-images.githubusercontent.com/73213917/100327706-9e09d380-2ff1-11eb-964a-f2078ea705a1.png">
