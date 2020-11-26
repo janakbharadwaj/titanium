@@ -434,12 +434,29 @@ function createLoginPage(){
 
     var loginParent = document.getElementById("loginPage")
 
-    var loginText = document.createElement("h1")
-    loginText.setAttribute("class","loginText")
-    loginText.textContent = "THIS IS LOGIN PAGE"
-
-    loginParent.append(loginText)
-
+    var loginbox = document.createElement("h1")
+    loginbox.setAttribute("class","login")
+    loginbox.innerHTML = "<h2>Reporting Dashboard</h2><p>Powerful reporting to keep you on top of your business<br/>and workload.Customize your dashboard to gain<br/> insights and make informed decisions.</p><img src='https://nifty.pm/static/media/main.9818dcc5.png' alt=logo/>"
+    loginParent.append(loginbox)
+    var h=document.createElement('h2')
+    h.setAttribute('class','hq')
+    h.innerHTML="<h3>Log in to your account</h3>"
+    var fm=document.createElement('form')
+    fm.setAttribute('id','email')
+    fm.innerHTML="<form> <label for='fname'>Email address</label><br/><input type='text' id='fname' placeholder='name@company.com' ><br/><br/><br/> <label for='lname'>Password*</label><br/><input type='text' id='lname' placeholder='Password'></form>"
+     var bttn=document.createElement('div')
+     bttn.setAttribute('class','d')
+     bttn.innerHTML="<button>Log in</button>"
+     var lg=document.createElement('div')
+     lg.setAttribute('class','logonifty')
+     lg.innerHTML="<img src='https://niftypm.com/_nuxt/img/nifty-logo.c577d9d.svg' alt=logo />"
+     var google=document.createElement('div')
+     google.setAttribute('class','googlelink')
+     google.innerHTML="<a href='https://api.niftypm.com/auth/google?state='>Sign in with Google</a>"
+     var signup=document.createElement('div')
+     signup.setAttribute('class','bottomsignup')
+     signup.innerHTML="<p>Do not have an account?</p><br/><button>Sign up for free</button>"
+    loginParent.append(h,fm,bttn,lg,google,signup)
 }
 loginBtn.addEventListener("click",createLoginPage)
 
