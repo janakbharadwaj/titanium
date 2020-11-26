@@ -756,5 +756,230 @@ function createClientPage(){
     indivDiv2.append(indiv2Text, indiv2Img)
     clientParent.append(indivDiv2)
 
+    //individual div 3
+    var indivDiv3 = document.createElement("div")
+    indivDiv3.setAttribute("class","indivDiv3")
+
+        var indiv3Text = document.createElement("div")
+        indiv3Text.setAttribute("class","indiv3Text")
+
+        var indiv3Head = document.createElement("h2")
+        indiv3Head.setAttribute("class","indiv3Head")
+        indiv3Head.textContent = " Track Billable Hours "
+        
+        var indiv3Para1 = document.createElement("p")
+        indiv3Para1.setAttribute("class","indiv3Para1")
+        indiv3Para1.textContent = "Record and export time spent on case efforts to"
+        var indiv3Para2 = document.createElement("p")
+        indiv3Para2.setAttribute("class","indiv3Para2")
+        indiv3Para2.textContent = "easily stay on top of the managerial aspects of the case."
+
+        var indiv3Img = document.createElement("img")
+        indiv3Img.setAttribute("class","indiv3Img")
+        indiv3Img.setAttribute("src","https://niftypm.com/_nuxt/img/large@1x.55917e8.webp")
+
+    indiv3Text.append(indiv3Head, indiv3Para1, indiv3Para2)
+    indivDiv3.append(indiv3Text, indiv3Img)
+    clientParent.append(indivDiv3)
+
+    //individual div 4
+    var indivDiv4 = document.createElement("div")
+    indivDiv4.setAttribute("class","indivDiv4")
+
+        var indiv4Text = document.createElement("div")
+        indiv4Text.setAttribute("class","indiv4Text")
+
+        var indiv4Head = document.createElement("h2")
+        indiv4Head.setAttribute("class","indiv4Head")
+        indiv4Head.textContent = " Keep a Record "
+        
+        var indiv4Para1 = document.createElement("p")
+        indiv4Para1.setAttribute("class","indiv4Para1")
+        indiv4Para1.textContent = "keep interactions of all your interactions and deliverables"
+        var indiv4Para2 = document.createElement("p")
+        indiv4Para2.setAttribute("class","indiv4Para2")
+        indiv4Para2.textContent = "withtime stamps and activity logoson tasks to avoid any miscommunication."
+
+        var indiv4Img = document.createElement("img")
+        indiv4Img.setAttribute("class","indiv4Img")
+        indiv4Img.setAttribute("src","https://niftypm.com/_nuxt/img/large@1x.68c2164.webp")
+
+    indiv4Text.append(indiv4Head, indiv4Para1, indiv4Para2)
+    indivDiv4.append(indiv4Text, indiv4Img)
+    clientParent.append(indivDiv4)
+
+    //individual div 5
+    var indivDiv5 = document.createElement("div")
+    indivDiv5.setAttribute("class","indivDiv5")
+
+        var indiv5Text = document.createElement("div")
+        indiv5Text.setAttribute("class","indiv5Text")
+
+        var indiv5Head = document.createElement("h2")
+        indiv5Head.setAttribute("class","indiv5Head")
+        indiv5Head.textContent = " Streamline Responsibilities "
+        
+        var indiv5Para1 = document.createElement("p")
+        indiv5Para1.setAttribute("class","indiv5Para1")
+        indiv5Para1.textContent = "Assign tasks to your clients to notify them about"
+        var indiv5Para2 = document.createElement("p")
+        indiv5Para2.setAttribute("class","indiv5Para2")
+        indiv5Para2.textContent = "what's needed and by when to reduce unnecessary meetings and naggings."
+
+        var indiv5Img = document.createElement("img")
+        indiv5Img.setAttribute("class","indiv5Img")
+        indiv5Img.setAttribute("src","https://niftypm.com/_nuxt/img/large@1x.37ccc78.webp")
+
+    indiv5Text.append(indiv5Head, indiv5Para1, indiv5Para2)
+    indivDiv5.append(indiv5Text, indiv5Img)
+    clientParent.append(indivDiv5)
+
+    //yellow icon with text
+    var yelloParent = document.createElement("div")
+    yelloParent.setAttribute("class","yelloParent")
+
+    var yellow_logo = document.createElement("p")
+    yellow_logo.setAttribute("class","yellow_logo")
+    
+    var yellow_logo_text = document.createElement("h2")
+    yellow_logo_text.setAttribute("class","yellow_logo_text")
+    yellow_logo_text.textContent = "What teams say about Nifty..."
+
+    yelloParent.append(yellow_logo, yellow_logo_text)
+    clientParent.append(yelloParent)
+
+    //3 blocks part
+    var three_blocks = document.createElement("div")
+    three_blocks.setAttribute("class","three_blocks")
+
+    //block1
+    var block_1 = document.createElement("div")
+    block_1.setAttribute("class","block_1")
+
+    var block1_text = document.createElement("p")
+    block1_text.setAttribute("class","block1_text")
+    block1_text.textContent = "Nifty is the glue my business was missing. Its one tool that my product team, development team, and clients all use, and now everyone knows exactly where to look for updates."
+    
+    var block1_foot1 = document.createElement("h4")
+    block1_foot1.setAttribute("class","block1_foot1")
+    block1_foot1.textContent = "Bhargav Patel"
+    var block1_foot2 = document.createElement("p")
+    block1_foot2.setAttribute("class","block1_foot2")
+    block1_foot2.textContent = "Founder, IQM"
+
+    block_1.append(block1_text, block1_foot1, block1_foot2)
+    
+    //block2
+    var block_2 = document.createElement("div")
+    block_2.setAttribute("class","block_2")
+
+    var block2_text = document.createElement("p")
+    block2_text.setAttribute("class","block1_text")
+    block2_text.textContent = "Nifty is a product that excels in many client environments. Its ease of use makes it a powerful tool for managing our client portfolio."
+    
+    var block2_foot1 = document.createElement("h4")
+    block2_foot1.setAttribute("class","block1_foot1")
+    block2_foot1.textContent = "Stefan Schimidt"
+    var block2_foot2 = document.createElement("p")
+    block2_foot2.setAttribute("class","block1_foot2")
+    block2_foot2.textContent = "Executive Partner, Hemmersbach"
+
+    block_2.append(block2_text, block2_foot1, block2_foot2)
+
+    //block3
+    var block_3 = document.createElement("div")
+    block_3.setAttribute("class","block_3")
+
+    var block3_text = document.createElement("p")
+    block3_text.setAttribute("class","block1_text")
+    block3_text.textContent = "Nifty is by far the best productivity tool I've ever used. They have consolidated so many tools down to one for my team, without compromising the experience."
+    
+    var block3_foot1 = document.createElement("h4")
+    block3_foot1.setAttribute("class","block1_foot1")
+    block3_foot1.textContent = "Rim N. Kay"
+    var block3_foot2 = document.createElement("p")
+    block3_foot2.setAttribute("class","block1_foot2")
+    block3_foot2.textContent = "Engineering Lead, Emovis"
+
+    block_3.append(block3_text, block3_foot1, block3_foot2)
+
+    three_blocks.append(block_1, block_2, block_3)
+    clientParent.append(three_blocks)
+
+    //clients page bottom part
+
+    var client_bottom_div = document.createElement("div")
+    client_bottom_div.setAttribute("class","clientbot_div")
+
+    //text
+    var text_div = document.createElement("div")
+    text_div.setAttribute("class","text_div")
+
+    var text_div_h2 = document.createElement("h1")
+    text_div_h2.setAttribute("class","text_h2")
+    text_div_h2.textContent = "Switch to nifty in minutes!"
+
+    var text_div_para = document.createElement("p")
+    text_div_para.setAttribute("class","text_p")
+    text_div_para.textContent = "Move your projects, team, tasks, and files from Asana, Basecamp, ClickUp, JIRA, Trello, or Wrike quickly and easily! Nifty allows your team to pick up right where you left off without missing a beat."
+
+    var text_div_foot = document.createElement("h4")
+    text_div_foot.setAttribute("class","text_foot")
+    text_div_foot.textContent = "Import Projects Now >"
+
+    text_div.append(text_div_h2, text_div_para, text_div_foot)
+
+    //img logo
+    var img_div = document.createElement("div")
+    img_div.setAttribute("class","img_div")
+
+    var img_logo = document.createElement("img")
+    img_logo.setAttribute("src","https://niftypm.com/_nuxt/img/switch.14f27db.svg")
+    img_logo.setAttribute("class","img_logo")
+
+    img_div.append(img_logo)
+
+    client_bottom_div.append(text_div, img_div)
+    clientParent.append(client_bottom_div)
+
+    //colored background and img
+    var color_back = document.createElement("div")
+    color_back.setAttribute("class","color_back")
+
+    //text
+    var clr_text = document.createElement("div")
+    clr_text.setAttribute("class","clr_text")
+
+    clrtxt_h1 = document.createElement("h2")
+    clrtxt_h1.setAttribute("class","clrtxt_h1")
+    clrtxt_h1.textContent = "Ready to transform your"
+    clrtxt_h2 = document.createElement("h2")
+    clrtxt_h2.setAttribute("class","clrtxt_h2")
+    clrtxt_h2.textContent = "teamwork?"
+
+    clrtxt_p = document.createElement("p")
+    clrtxt_p.setAttribute("class","clrtxt_p")
+    clrtxt_p.textContent = "Thousands of forward-thinking teams trust Nifty to unite their goals, actions, and communications in one collaborative hub."
+
+    clrtxt_b1 = document.createElement("h3")
+    clrtxt_b1.setAttribute("class","clrtxt_b1")
+    clrtxt_b1.textContent = "Try Nifty for Free"
+    clrtxt_b2 = document.createElement("h3")
+    clrtxt_b2.setAttribute("class","clrtxt_b2")
+    clrtxt_b2.textContent = "Get a Demo"
+
+    clr_text.append(clrtxt_h1, clrtxt_h2, clrtxt_p, clrtxt_b1, clrtxt_b2)
+    color_back.append(clr_text)
+
+    //img
+    var clr_img = document.createElement("img")
+    clr_img.setAttribute("src","https://niftypm.com/_nuxt/img/large@1x.1450581.webp")
+    clr_img.setAttribute("class","clr_img")
+
+    color_back.append(clr_img)
+
+    client_bottom_div.append(color_back)
+    clientParent.append(client_bottom_div)
+
 }
 clientBtn.addEventListener("click", createClientPage)
