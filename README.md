@@ -9,3 +9,4 @@
  - Overview of Project Management,Nifty Case Studies and free Demo provided by nifty.
  - Other useful link for information on Product and Resources are present on the page.
  <img width='900' alt='logo' src="https://user-images.githubusercontent.com/73213917/100326285-c4c70a80-2fef-11eb-934c-4c5067b130b6.png">
+<img width='900' alt='logo' src="https://user-images.githubusercontent.com/73213917/100326733-559de600-2ff0-11eb-9574-7b565bf24170.png">
