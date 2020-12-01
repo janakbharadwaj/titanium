@@ -25,14 +25,14 @@
 <img width='900' alt='logo' src='https://user-images.githubusercontent.com/73213917/100328455-8c74fb80-2ff2-11eb-812d-4a9b2842b5ed.png'>
 
 
+**Janakbharadwaj Adluri**
+- Github:[@janakbharadwaj](https://github.com/janakbharadwaj)
+- Twitter:[@janakbharadwaj1] (https://twitter.com/janakbharadwaj1)
+- Linkedin:[Janakbharadwaj Adluri] (https://www.linkedin.com/in/janakbharadwaj-adluri-6a5b01a4/)
+- Gmail: (janakbharadwaj.adluri@gmail.com)
 
 **Rudra Pratap Singh**
 - Github: [@rps823] (https://github.com/rps823)
 - Linkedin: [Rudra Singh] (https://www.linkedin.com/in/rudra-singh-b3a3b454)
 - Gmail:(singhrudra723@gmail.com)
 
-
-**Janakbharadwaj Adluri**
-- Github:[@janakbharadwaj](https://github.com/janakbharadwaj)
-- Linkedin:[Janakbharadwaj Adluri] (https://www.linkedin.com/in/janakbharadwaj-adluri-6a5b01a4/)
-- Gmail: (janakbharadwaj.adluri@gmail.com)
